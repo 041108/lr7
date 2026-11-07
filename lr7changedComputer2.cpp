@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
     int number;
-    cout << ("НЕ введіть ціле позитивне число\n");
+    //cout << ("НЕ введіть ціле позитивне число\n");
+    cout << ("Введіть ціле позитивне число\n");
     cin >> number;
     if(number >= 100 && number <= 999 && number % 2 != 0)
     cout << "Дане число є непарним тризначним";
